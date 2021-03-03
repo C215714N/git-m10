@@ -1,0 +1,12 @@
+CENTRALIZADO:
+
+Un respositorio centralizado es aquel que esta
+basado en el uso de un servidor, como en el caso
+de SUBVERSION. Una de las desventajas que tiene
+esta forma de trabajar es que solamente se 
+actualizan los cambios si estamos conectados al 
+mismo y en caso de conflicto, se considera como
+verdadera la informacion almacenada en el servidor.
+La ventaja es que podemos acceder a dicha informacion
+desde cualquier lado siempre y cuando tengamos
+acceso al servidor.
