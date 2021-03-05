@@ -13,3 +13,20 @@ commit, utilizando el mensaje, usuario, correo
 ademas de la fecha y hora para generarlo.
 Los commits solo apuntan a sus ancestros, ya que
 git funciona como un Grafo dirigido aciclico.
+
+GIT:
+	git commit		Abre el editor para registrar los cambios
+	git commit -m <msg>	Crea un commit con mensaje
+	git commit -a		Agrega al INDEX los cambios antes de abrir el editor
+	git commit -am <msg>	Agrega los cambios al INDEX y emite un commit con mensaje
+	git commit --amend	Edita el ultimo commit para corregirlo
+
+	git diff <ref>		 Compara la cabecera actual con la referencia especificada
+	git diff <ref> -- <file> Compara un archivo entre referencias
+
+REFs:
+	HEAD		Cabecera Actual (USTED ESTA AQUI)
+	<commit>	Cabecera Especifica HASH abc1234
+	<ancestor>	Cabecera HEAD^ (padre)
+			HEAD~n°(commits anteriores)
+	<branch>	Rama (Ultimo commit apuntado)
